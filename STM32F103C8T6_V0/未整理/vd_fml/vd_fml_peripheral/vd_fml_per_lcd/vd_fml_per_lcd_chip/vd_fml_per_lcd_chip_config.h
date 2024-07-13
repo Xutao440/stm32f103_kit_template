@@ -1,0 +1,25 @@
+#ifndef __VD_FML_PER_LCD_CHIP_DEF_H
+#define __VD_FML_PER_LCD_CHIP_DEF_H
+
+/****LCD§à??¡§?*****/
+#define LCD_SSD1317_ALLVISION_0138_96_96_SPI 		1
+#define LCD_SSD1306_LIMITO_066_64_48_SPI 				2
+#define LCD_ST7789V3_ORIC_0144_240_240_SPI 			3
+#define LCD_ST7789V22_BOHU_0244_240_320_SPI 		4
+#define LCD_ST77903_BOHU_0160_400_400_QSPI 			5
+#define LCD_ST7789V2_OURUIKE_0154_240_240_SPI 	6
+#define LCD_FEIXINDA_128_GC9A01 								7
+#define LCD_XINLI_128_SSD1327 									8
+#define LCD_OURUIKE_130_7789V2 									9
+#define LCD_XINYONGHUI_130_7789V2 							10
+#define LCD_OURUIKE_144_7735S 									11
+#define LCD_FEIXINDA_154_7789 									12
+#define LCD_LONGXI_154_7789 										13
+#define LCD_OURUIKE_154_7735S 									14
+#define LCD_OURUIKE_177_7735S 									15
+#define LCD_FEIXINDA_24_7789V2 									16
+#define LCD_RGB_43_GT911 												17
+#define LCD_GC9C01 															18
+#define LCD_ST77916_LEIKE_1_52_360_360_QSPI			19
+
+#endif

@@ -1,0 +1,187 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.27.1.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 xu, 1, LIC=ATTQ1-CZBBN-QDYKD-8FI7V-37TGV-EAR1D
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.31.0.0
+Toolchain Path:  A:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DARMSTM.DLL V1.68.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.7.0
+Dialog DLL:      DARMSTM.DLL V1.68.0.0
+ 
+<h2>Project:</h2>
+F:\######### 徐涛 #########\############### kit模板 ###########\STM32F103C8T6最新版本\STM32F103C8T6最新版本\vd_compile\Project.uvprojx
+Project File Date:  04/07/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'A:\Program Files (x86)\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling vd_bsp_dwt.c...
+compiling vd_bsp_systick.c...
+compiling vd_bsp_adc.c...
+..\vd_mcu_kit\vd_bsp\vd_bsp_adc\vd_bsp_adc.c(6): warning:  #188-D: enumerated type mixed with another type
+  vd_adc_t vd_g_register_adc_obj_arry[ADC_OBJ_MAX] = {0};   //已注册adc对象
+..\vd_mcu_kit\vd_bsp\vd_bsp_adc\vd_bsp_adc.c(21): warning:  #177-D: variable "ret_adc_obj"  was declared but never referenced
+  	vd_int32_t  ret_adc_obj = -1,ret_value = -1;;
+..\vd_mcu_kit\vd_bsp\vd_bsp_adc\vd_bsp_adc.c: 2 warnings, 0 errors
+compiling vd_bsp_pwm.c...
+..\vd_mcu_kit\vd_bsp\vd_bsp_pwm\vd_bsp_pwm.c(6): warning:  #188-D: enumerated type mixed with another type
+  vd_pwm_t vd_g_register_pwm_obj_arry[PWM_MAX] = {0};   //已注册pwm对象
+..\vd_mcu_kit\vd_bsp\vd_bsp_pwm\vd_bsp_pwm.c(10): warning:  #188-D: enumerated type mixed with another type
+  		{GPIO_PA0,  TIM2, TIM_Channel_1}, 
+..\vd_mcu_kit\vd_bsp\vd_bsp_pwm\vd_bsp_pwm.c(11): warning:  #188-D: enumerated type mixed with another type
+  		{GPIO_PA1,  TIM2, TIM_Channel_2}, 
+..\vd_mcu_kit\vd_bsp\vd_bsp_pwm\vd_bsp_pwm.c(12): warning:  #188-D: enumerated type mixed with another type
+  		{GPIO_PA2,  TIM2, TIM_Channel_3}, 
+..\vd_mcu_kit\vd_bsp\vd_bsp_pwm\vd_bsp_pwm.c(13): warning:  #188-D: enumerated type mixed with another type
+  		{GPIO_PA3,  TIM2, TIM_Channel_4}, 
+..\vd_mcu_kit\vd_bsp\vd_bsp_pwm\vd_bsp_pwm.c(14): warning:  #188-D: enumerated type mixed with another type
+  		{GPIO_PA8,  TIM1, TIM_Channel_1}, 
+..\vd_mcu_kit\vd_bsp\vd_bsp_pwm\vd_bsp_pwm.c(15): warning:  #188-D: enumerated type mixed with another type
+  		{GPIO_PA9,  TIM1, TIM_Channel_2}, 
+..\vd_mcu_kit\vd_bsp\vd_bsp_pwm\vd_bsp_pwm.c(16): warning:  #188-D: enumerated type mixed with another type
+  		{GPIO_PA10, TIM1, TIM_Channel_3}, 
+..\vd_mcu_kit\vd_bsp\vd_bsp_pwm\vd_bsp_pwm.c(17): warning:  #188-D: enumerated type mixed with another type
+  		{GPIO_PA11, TIM1, TIM_Channel_4}, 
+..\vd_mcu_kit\vd_bsp\vd_bsp_pwm\vd_bsp_pwm.c: 9 warnings, 0 errors
+compiling vd_bsp_soft_i2c.c...
+..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c\vd_bsp_soft_i2c.c(178): warning:  #177-D: variable "index"  was declared but never referenced
+  	vd_uint8_t index = 0;
+..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c\vd_bsp_soft_i2c.c: 1 warning, 0 errors
+compiling vd_bsp_uart.c...
+..\vd_mcu_kit\vd_bsp\vd_bsp_uart\vd_bsp_uart.c(80): warning:  #223-D: function "vd_bsp_gpio_get_PeriphClock" declared implicitly
+  	gpio_ahb_periph = vd_bsp_gpio_get_PeriphClock(vd_tx_port);
+..\vd_mcu_kit\vd_bsp\vd_bsp_uart\vd_bsp_uart.c: 1 warning, 0 errors
+compiling vd_bsp_gpio.c...
+..\vd_mcu_kit\vd_bsp\vd_bsp_gpio\vd_bsp_gpio.c(334): warning:  #188-D: enumerated type mixed with another type
+  		GPIO_InitStructure.GPIO_Mode = pin_irq_hdr_tab[irq_map_index].gpio_mode; 
+..\vd_mcu_kit\vd_bsp\vd_bsp_gpio\vd_bsp_gpio.c(303): warning:  #550-D: variable "PeriphClock"  was set but never used
+  	uint32_t PeriphClock = 0, group_adrr = 0;
+..\vd_mcu_kit\vd_bsp\vd_bsp_gpio\vd_bsp_gpio.c: 2 warnings, 0 errors
+compiling vd_bsp_soft_spi.c...
+..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi\vd_bsp_soft_spi.c(8): warning:  #188-D: enumerated type mixed with another type
+  vd_slave_spi_t register_slave_dev[SLAVE_DEV_MAX] = {0};
+..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi\vd_bsp_soft_spi.c(22): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_PORT_E slave_port = 0;
+..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi\vd_bsp_soft_spi.c(39): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_PORT_E slave_port = 0;
+..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi\vd_bsp_soft_spi.c(125): warning:  #550-D: variable "soft_spi"  was set but never used
+  	vd_soft_spi_t* soft_spi = NULL;
+..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi\vd_bsp_soft_spi.c: 4 warnings, 0 errors
+compiling vd_bsp_timer.c...
+compiling vd_fml_per_beep_module.c...
+..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module\vd_fml_per_beep_module.c(7): warning:  #188-D: enumerated type mixed with another type
+  vd_fml_per_beep_t  beeps_obj_arry[BEEP_OBJ_MAX] = {0};    //beep 对象数组
+..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module\vd_fml_per_beep_module.c(103): warning:  #940-D: missing return statement at end of non-void function "vd_fml_per_beep_init" 
+  }
+..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module\vd_fml_per_beep_module.c(118): warning:  #177-D: variable "ret_value"  was declared but never referenced
+  	vd_int32_t ret_value = -1;
+..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module\vd_fml_per_beep_module.c: 3 warnings, 0 errors
+compiling stm32f10x_adc.c...
+compiling log.c...
+compiling misc.c...
+compiling vd_fml_per_led_module.c...
+..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module\vd_fml_per_led_module.c(8): warning:  #188-D: enumerated type mixed with another type
+  vd_fml_per_led_t  leds_obj_arry[LED_OBJ_MAX] = {0};    //LED 对象数组
+..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module\vd_fml_per_led_module.c(120): warning:  #177-D: variable "ret_value"  was declared but never referenced
+  	vd_int32_t ret_value = -1;
+..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module\vd_fml_per_led_module.c(143): warning:  #177-D: variable "ret_value"  was declared but never referenced
+  	vd_int32_t ret_value = -1;
+..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module\vd_fml_per_led_module.c(167): warning:  #177-D: variable "ret_value"  was declared but never referenced
+  	vd_int32_t ret_value = -1;
+..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module\vd_fml_per_led_module.c(200): warning:  #177-D: variable "ret_value"  was declared but never referenced
+  	vd_int32_t ret_value = -1,pwm_obj_id = -1;
+..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module\vd_fml_per_led_module.c(233): warning:  #177-D: variable "filck_once_flag"  was declared but never referenced
+  	static vd_bool_t filck_once_flag = vd_true;
+..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module\vd_fml_per_led_module.c: 6 warnings, 0 errors
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_dbgmcu.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_cec.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_wwdg.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_usart.c...
+assembling startup_stm32f10x_md.s...
+compiling stm32f10x_tim.c...
+compiling vdchip_stm32f103xx_gpio.c...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+compiling stm32f10x_it.c...
+compiling main.c...
+..\vd_user_code\main.c(120): warning:  #188-D: enumerated type mixed with another type
+  	TIMERx_OBJ_ID_E timer_obj1 = VD_BSP_TIMERx_OBJ_NANE,timer_obj2 = VD_BSP_TIMERx_OBJ_NANE, i2c_id = 0, i2c_id1 = 0;
+..\vd_user_code\main.c(120): warning:  #188-D: enumerated type mixed with another type
+  	TIMERx_OBJ_ID_E timer_obj1 = VD_BSP_TIMERx_OBJ_NANE,timer_obj2 = VD_BSP_TIMERx_OBJ_NANE, i2c_id = 0, i2c_id1 = 0;
+..\vd_user_code\main.c(114): warning:  #177-D: variable "data"  was declared but never referenced
+  	vd_uint8_t data = 0;
+..\vd_user_code\main.c(115): warning:  #177-D: variable "soft_i2c"  was declared but never referenced
+  	vd_master_i2c_t soft_i2c;	
+..\vd_user_code\main.c(116): warning:  #177-D: variable "timer_10s"  was declared but never referenced
+  	vd_uint32_t timer_10s = 10;
+..\vd_user_code\main.c(117): warning:  #177-D: variable "adc_mv"  was declared but never referenced
+  	vd_int32_t adc_mv = 0;
+..\vd_user_code\main.c(118): warning:  #177-D: variable "adc_value"  was declared but never referenced
+  	vd_uint16_t adc_value = 0;
+..\vd_user_code\main.c(119): warning:  #177-D: variable "pwm_obj_id"  was declared but never referenced
+  	vd_int32_t pwm_obj_id = 0, pwm_obj_id1 = 0, adc_obj_id = 0;
+..\vd_user_code\main.c(119): warning:  #177-D: variable "pwm_obj_id1"  was declared but never referenced
+  	vd_int32_t pwm_obj_id = 0, pwm_obj_id1 = 0, adc_obj_id = 0;
+..\vd_user_code\main.c(119): warning:  #177-D: variable "adc_obj_id"  was declared but never referenced
+  	vd_int32_t pwm_obj_id = 0, pwm_obj_id1 = 0, adc_obj_id = 0;
+..\vd_user_code\main.c(120): warning:  #177-D: variable "timer_obj1"  was declared but never referenced
+  	TIMERx_OBJ_ID_E timer_obj1 = VD_BSP_TIMERx_OBJ_NANE,timer_obj2 = VD_BSP_TIMERx_OBJ_NANE, i2c_id = 0, i2c_id1 = 0;
+..\vd_user_code\main.c(120): warning:  #177-D: variable "timer_obj2"  was declared but never referenced
+  	TIMERx_OBJ_ID_E timer_obj1 = VD_BSP_TIMERx_OBJ_NANE,timer_obj2 = VD_BSP_TIMERx_OBJ_NANE, i2c_id = 0, i2c_id1 = 0;
+..\vd_user_code\main.c(120): warning:  #177-D: variable "i2c_id"  was declared but never referenced
+  	TIMERx_OBJ_ID_E timer_obj1 = VD_BSP_TIMERx_OBJ_NANE,timer_obj2 = VD_BSP_TIMERx_OBJ_NANE, i2c_id = 0, i2c_id1 = 0;
+..\vd_user_code\main.c(120): warning:  #177-D: variable "i2c_id1"  was declared but never referenced
+  	TIMERx_OBJ_ID_E timer_obj1 = VD_BSP_TIMERx_OBJ_NANE,timer_obj2 = VD_BSP_TIMERx_OBJ_NANE, i2c_id = 0, i2c_id1 = 0;
+..\vd_user_code\main.c(121): warning:  #177-D: variable "pwm"  was declared but never referenced
+  	vd_pwm_t pwm;
+..\vd_user_code\main.c(123): warning:  #177-D: variable "adc"  was declared but never referenced
+  	vd_adc_t adc;
+..\vd_user_code\main.c: 16 warnings, 0 errors
+linking...
+Program Size: Code=6408 RO-data=536 RW-data=404 ZI-data=1452  
+".\Objects\Project.axf" - 0 Error(s), 44 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.1.0.pack
+                Keil.STM32F1xx_DFP.2.1.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>
