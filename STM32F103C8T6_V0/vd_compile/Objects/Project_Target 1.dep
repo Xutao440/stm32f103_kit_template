@@ -1,1265 +1,0 @@
-Dependencies for Project 'Project', Target 'Target 1': (DO NOT MODIFY !)
-F (..\vd_mcu_kit\vd_base\base_check.h)(0x65EADA92)()
-F (..\vd_mcu_kit\vd_base\base_keyword.h)(0x65EADAC9)()
-F (..\vd_mcu_kit\vd_base\base_limits.h)(0x65EADB01)()
-F (..\vd_mcu_kit\vd_base\base_type.h)(0x65F4141F)()
-F (..\vd_mcu_kit\vd_base\base_utils.h)(0x65EFF34C)()
-F (..\vd_mcu_kit\vd_bsp\vd_bsp_dwt\vd_bsp_dwt.c)(0x65EADB9C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\vd_bsp_dwt.o --omf_browse .\objects\vd_bsp_dwt.crf --depend .\objects\vd_bsp_dwt.d)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_dwt\vd_bsp_dwt.h)(0x65ED780F)
-I (..\vd_mcu_kit\vd_base\base_type.h)(0x65F4141F)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC775F6)
-F (..\vd_mcu_kit\vd_bsp\vd_bsp_dwt\vd_bsp_dwt.h)(0x65ED780F)()
-F (..\vd_mcu_kit\vd_bsp\vd_bsp_gpio\vd_bsp_gpio.c)(0x65F301C1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\vd_bsp_gpio.o --omf_browse .\objects\vd_bsp_gpio.crf --depend .\objects\vd_bsp_gpio.d)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_gpio\vd_bsp_gpio.h)(0x65F3029B)
-I (..\vd_mcu_kit\vd_base\base_type.h)(0x65F4141F)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC775F6)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_type.h)(0x65F07B95)
-I (..\vd_mcu_kit\vd_base\base_check.h)(0x65EADA92)
-I (..\vd_mcu_kit\vd_fml\fml_lib\log\log.h)(0x65EADDCD)
-I (..\vd_mcu_kit\board_config.h)(0x65F16F94)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_uart\vd_bsp_uart.h)(0x65F30264)
-I (..\vd_mcu_kit\vd_base\base_utils.h)(0x65EFF34C)
-F (..\vd_mcu_kit\vd_bsp\vd_bsp_gpio\vd_bsp_gpio.h)(0x65F3029B)()
-F (..\vd_mcu_kit\vd_bsp\vd_bsp_pwm\vd_bsp_pwm.c)(0x65F6FE3D)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\vd_bsp_pwm.o --omf_browse .\objects\vd_bsp_pwm.crf --depend .\objects\vd_bsp_pwm.d)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_pwm\vd_bsp_pwm.h)(0x65F6FE3D)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_gpio\vd_bsp_gpio.h)(0x65F3029B)
-I (..\vd_mcu_kit\vd_base\base_type.h)(0x65F4141F)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC775F6)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_type.h)(0x65F07B95)
-I (..\vd_mcu_kit\vd_base\base_check.h)(0x65EADA92)
-I (..\vd_mcu_kit\vd_fml\fml_lib\log\log.h)(0x65EADDCD)
-I (..\vd_mcu_kit\board_config.h)(0x65F16F94)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_uart\vd_bsp_uart.h)(0x65F30264)
-I (..\vd_mcu_kit\vd_base\base_utils.h)(0x65EFF34C)
-F (..\vd_mcu_kit\vd_bsp\vd_bsp_pwm\vd_bsp_pwm.h)(0x65F6FE3D)()
-F (..\vd_mcu_kit\vd_bsp\vd_bsp_systick\vd_bsp_systick.c)(0x65F41493)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\vd_bsp_systick.o --omf_browse .\objects\vd_bsp_systick.crf --depend .\objects\vd_bsp_systick.d)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_systick\vd_bsp_systick.h)(0x65F30264)
-I (..\vd_mcu_kit\vd_base\base_type.h)(0x65F4141F)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC775F6)
-I (..\vd_mcu_kit\vd_base\base_check.h)(0x65EADA92)
-I (..\vd_mcu_kit\vd_fml\fml_lib\log\log.h)(0x65EADDCD)
-I (..\vd_mcu_kit\board_config.h)(0x65F16F94)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_uart\vd_bsp_uart.h)(0x65F30264)
-I (..\vd_mcu_kit\vd_base\base_utils.h)(0x65EFF34C)
-F (..\vd_mcu_kit\vd_bsp\vd_bsp_systick\vd_bsp_systick.h)(0x65F30264)()
-F (..\vd_mcu_kit\vd_bsp\vd_bsp_uart\vd_bsp_uart.c)(0x65F301C1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\vd_bsp_uart.o --omf_browse .\objects\vd_bsp_uart.crf --depend .\objects\vd_bsp_uart.d)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_uart\vd_bsp_uart.h)(0x65F30264)
-I (..\vd_mcu_kit\vd_base\base_type.h)(0x65F4141F)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC775F6)
-I (..\vd_mcu_kit\vd_base\base_check.h)(0x65EADA92)
-I (..\vd_mcu_kit\vd_fml\fml_lib\log\log.h)(0x65EADDCD)
-I (..\vd_mcu_kit\board_config.h)(0x65F16F94)
-I (..\vd_mcu_kit\vd_base\base_utils.h)(0x65EFF34C)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)
-F (..\vd_mcu_kit\vd_bsp\vd_bsp_uart\vd_bsp_uart.h)(0x65F30264)()
-F (..\vd_mcu_kit\vd_bsp\kit_driver_bsp_config.h)(0x00000000)()
-F (..\vd_mcu_kit\vd_bsp\vd_bsp_config.h)(0x65F6F5CA)()
-F (..\vd_mcu_kit\vd_bsp\vd_bsp_type.h)(0x65F07B95)()
-F (..\vd_mcu_kit\vd_bsp\vd_bsp_adc\vd_bsp_adc.c)(0x65F2C15E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\vd_bsp_adc.o --omf_browse .\objects\vd_bsp_adc.crf --depend .\objects\vd_bsp_adc.d)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_adc\vd_bsp_adc.h)(0x65F302C3)
-I (..\vd_mcu_kit\vd_base\base_type.h)(0x65F4141F)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC775F6)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_type.h)(0x65F07B95)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_gpio\vd_bsp_gpio.h)(0x65F3029B)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_config.h)(0x65F6F5CA)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_dwt\vd_bsp_dwt.h)(0x65ED780F)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_pwm\vd_bsp_pwm.h)(0x65F6FE3D)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_systick\vd_bsp_systick.h)(0x65F30264)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_uart\vd_bsp_uart.h)(0x65F30264)
-I (..\vd_mcu_kit\vd_base\base_check.h)(0x65EADA92)
-I (..\vd_mcu_kit\vd_fml\fml_lib\log\log.h)(0x65EADDCD)
-I (..\vd_mcu_kit\board_config.h)(0x65F16F94)
-F (..\vd_mcu_kit\vd_bsp\vd_bsp_adc\vd_bsp_adc.h)(0x65F302C3)()
-F (..\vd_mcu_kit\vd_bsp\vd_bsp_adc\vd_bsp_adc_type.h)(0x65EAE32F)()
-F (..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c\vd_bsp_soft_i2c.c)(0x65FAB563)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\vd_bsp_soft_i2c.o --omf_browse .\objects\vd_bsp_soft_i2c.crf --depend .\objects\vd_bsp_soft_i2c.d)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c\vd_bsp_soft_i2c.h)(0x65FAB556)
-I (..\vd_mcu_kit\vd_base\base_type.h)(0x65F4141F)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC775F6)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_type.h)(0x65F07B95)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_gpio\vd_bsp_gpio.h)(0x65F3029B)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_dwt\vd_bsp_dwt.h)(0x65ED780F)
-I (..\vd_mcu_kit\vd_base\base_check.h)(0x65EADA92)
-I (..\vd_mcu_kit\vd_fml\fml_lib\log\log.h)(0x65EADDCD)
-I (..\vd_mcu_kit\board_config.h)(0x65F16F94)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_uart\vd_bsp_uart.h)(0x65F30264)
-I (..\vd_mcu_kit\vd_base\base_utils.h)(0x65EFF34C)
-F (..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c\vd_bsp_soft_i2c.h)(0x65FAB556)()
-F (..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi\vd_bsp_soft_spi.c)(0x65FC0225)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\vd_bsp_soft_spi.o --omf_browse .\objects\vd_bsp_soft_spi.crf --depend .\objects\vd_bsp_soft_spi.d)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi\vd_bsp_soft_spi.h)(0x65FC0154)
-I (..\vd_mcu_kit\vd_base\base_type.h)(0x65F4141F)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC775F6)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_type.h)(0x65F07B95)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_gpio\vd_bsp_gpio.h)(0x65F3029B)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_dwt\vd_bsp_dwt.h)(0x65ED780F)
-I (..\vd_mcu_kit\vd_base\base_check.h)(0x65EADA92)
-I (..\vd_mcu_kit\vd_fml\fml_lib\log\log.h)(0x65EADDCD)
-I (..\vd_mcu_kit\board_config.h)(0x65F16F94)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_uart\vd_bsp_uart.h)(0x65F30264)
-I (..\vd_mcu_kit\vd_base\base_utils.h)(0x65EFF34C)
-F (..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi\vd_bsp_soft_spi.h)(0x65FC0154)()
-F (..\vd_mcu_kit\vd_bsp\vd_bsp_timer\vd_bsp_timer.c)(0x65F16F5F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\vd_bsp_timer.o --omf_browse .\objects\vd_bsp_timer.crf --depend .\objects\vd_bsp_timer.d)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_timer\vd_bsp_timer.h)(0x65F301DA)
-I (..\vd_mcu_kit\vd_base\base_type.h)(0x65F4141F)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC775F6)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_config.h)(0x65F6F5CA)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_dwt\vd_bsp_dwt.h)(0x65ED780F)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_pwm\vd_bsp_pwm.h)(0x65F6FE3D)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_gpio\vd_bsp_gpio.h)(0x65F3029B)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_type.h)(0x65F07B95)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_systick\vd_bsp_systick.h)(0x65F30264)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_uart\vd_bsp_uart.h)(0x65F30264)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_adc\vd_bsp_adc.h)(0x65F302C3)
-I (..\vd_mcu_kit\vd_base\base_check.h)(0x65EADA92)
-I (..\vd_mcu_kit\vd_fml\fml_lib\log\log.h)(0x65EADDCD)
-I (..\vd_mcu_kit\board_config.h)(0x65F16F94)
-I (..\vd_mcu_kit\vd_base\base_utils.h)(0x65EFF34C)
-F (..\vd_mcu_kit\vd_bsp\vd_bsp_timer\vd_bsp_timer.h)(0x65F301DA)()
-F (..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module\vd_fml_per_beep_module.c)(0x65F80BD0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\vd_fml_per_beep_module.o --omf_browse .\objects\vd_fml_per_beep_module.crf --depend .\objects\vd_fml_per_beep_module.d)
-I (..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module\vd_fml_per_beep_module.h)(0x65F80BC5)
-I (..\vd_mcu_kit\vd_base\base_type.h)(0x65F4141F)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC775F6)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_type.h)(0x65F07B95)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_gpio\vd_bsp_gpio.h)(0x65F3029B)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_pwm\vd_bsp_pwm.h)(0x65F6FE3D)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_systick\vd_bsp_systick.h)(0x65F30264)
-I (..\vd_mcu_kit\vd_base\base_check.h)(0x65EADA92)
-I (..\vd_mcu_kit\vd_fml\fml_lib\log\log.h)(0x65EADDCD)
-I (..\vd_mcu_kit\board_config.h)(0x65F16F94)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_uart\vd_bsp_uart.h)(0x65F30264)
-I (..\vd_mcu_kit\vd_base\base_utils.h)(0x65EFF34C)
-F (..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module\vd_fml_per_beep_module.h)(0x65F80BC5)()
-F (..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module\vd_fml_per_led_module.c)(0x65F6FDAD)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\vd_fml_per_led_module.o --omf_browse .\objects\vd_fml_per_led_module.crf --depend .\objects\vd_fml_per_led_module.d)
-I (..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module\vd_fml_per_led_module.h)(0x65F6F56F)
-I (..\vd_mcu_kit\vd_base\base_type.h)(0x65F4141F)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC775F6)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_type.h)(0x65F07B95)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_gpio\vd_bsp_gpio.h)(0x65F3029B)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_pwm\vd_bsp_pwm.h)(0x65F6FE3D)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_systick\vd_bsp_systick.h)(0x65F30264)
-I (..\vd_mcu_kit\vd_base\base_check.h)(0x65EADA92)
-I (..\vd_mcu_kit\vd_fml\fml_lib\log\log.h)(0x65EADDCD)
-I (..\vd_mcu_kit\board_config.h)(0x65F16F94)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_uart\vd_bsp_uart.h)(0x65F30264)
-I (..\vd_mcu_kit\vd_base\base_utils.h)(0x65EFF34C)
-F (..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module\vd_fml_per_led_module.h)(0x65F6F56F)()
-F (..\vd_mcu_kit\vd_fml\fml_lib\log\log.c)(0x65EADDCF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\log.o --omf_browse .\objects\log.crf --depend .\objects\log.d)
-I (..\vd_mcu_kit\vd_fml\fml_lib\log\log.h)(0x65EADDCD)
-I (..\vd_mcu_kit\board_config.h)(0x65F16F94)
-I (..\vd_mcu_kit\vd_base\base_type.h)(0x65F4141F)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC775F6)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_uart\vd_bsp_uart.h)(0x65F30264)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC77604)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5EC775FC)
-F (..\vd_mcu_kit\vd_lib\Library\misc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-F (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_adc.o --omf_browse .\objects\stm32f10x_adc.crf --depend .\objects\stm32f10x_adc.d)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-F (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_bkp.o --omf_browse .\objects\stm32f10x_bkp.crf --depend .\objects\stm32f10x_bkp.d)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-F (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_can.o --omf_browse .\objects\stm32f10x_can.crf --depend .\objects\stm32f10x_can.d)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-F (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_cec.o --omf_browse .\objects\stm32f10x_cec.crf --depend .\objects\stm32f10x_cec.d)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-F (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_crc.o --omf_browse .\objects\stm32f10x_crc.crf --depend .\objects\stm32f10x_crc.d)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-F (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_dac.o --omf_browse .\objects\stm32f10x_dac.crf --depend .\objects\stm32f10x_dac.d)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-F (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_dbgmcu.o --omf_browse .\objects\stm32f10x_dbgmcu.crf --depend .\objects\stm32f10x_dbgmcu.d)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-F (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_dma.o --omf_browse .\objects\stm32f10x_dma.crf --depend .\objects\stm32f10x_dma.d)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-F (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_exti.o --omf_browse .\objects\stm32f10x_exti.crf --depend .\objects\stm32f10x_exti.d)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-F (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_flash.o --omf_browse .\objects\stm32f10x_flash.crf --depend .\objects\stm32f10x_flash.d)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-F (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_fsmc.o --omf_browse .\objects\stm32f10x_fsmc.crf --depend .\objects\stm32f10x_fsmc.d)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-F (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.c)(0x4D79EEC6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-F (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_i2c.o --omf_browse .\objects\stm32f10x_i2c.crf --depend .\objects\stm32f10x_i2c.d)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-F (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_iwdg.o --omf_browse .\objects\stm32f10x_iwdg.crf --depend .\objects\stm32f10x_iwdg.d)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-F (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_pwr.o --omf_browse .\objects\stm32f10x_pwr.crf --depend .\objects\stm32f10x_pwr.d)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-F (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-F (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_rtc.o --omf_browse .\objects\stm32f10x_rtc.crf --depend .\objects\stm32f10x_rtc.d)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-F (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_sdio.o --omf_browse .\objects\stm32f10x_sdio.crf --depend .\objects\stm32f10x_sdio.d)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-F (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_spi.o --omf_browse .\objects\stm32f10x_spi.crf --depend .\objects\stm32f10x_spi.d)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-F (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_tim.o --omf_browse .\objects\stm32f10x_tim.crf --depend .\objects\stm32f10x_tim.d)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-F (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_usart.o --omf_browse .\objects\stm32f10x_usart.crf --depend .\objects\stm32f10x_usart.d)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-F (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.c)(0x4D783BB4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_wwdg.o --omf_browse .\objects\stm32f10x_wwdg.crf --depend .\objects\stm32f10x_wwdg.d)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-F (..\vd_mcu_kit\vd_lib\Start\core_cm3.c)(0x4C0C587E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-F (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.c)(0x4D783CB0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-F (..\vd_mcu_kit\vd_lib\Start\startup_stm32f10x_md.s)(0x4D783CD2)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"--pd "__UVISION_VERSION SETA 527" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
-F (..\vd_mcu_kit\vd_lib\stm32f10x_it.c)(0x65347CEB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_it.o --omf_browse .\objects\stm32f10x_it.crf --depend .\objects\stm32f10x_it.d)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_it.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-F (..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio\vdchip_stm32f103xx_gpio.c)(0x65F17103)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\vdchip_stm32f103xx_gpio.o --omf_browse .\objects\vdchip_stm32f103xx_gpio.crf --depend .\objects\vdchip_stm32f103xx_gpio.d)
-F (..\vd_mcu_kit\board_config.h)(0x65F16F94)()
-F (..\vd_user_code\main.c)(0x661248F3)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\vd_mcu_kit\vd_base -I ..\vd_mcu_kit\vd_bsp\vd_bsp_dwt -I ..\vd_mcu_kit\vd_bsp\vd_bsp_gpio -I ..\vd_mcu_kit\vd_bsp\vd_bsp_pwm -I ..\vd_mcu_kit\vd_bsp\vd_bsp_systick -I ..\vd_mcu_kit\vd_bsp\vd_bsp_uart -I ..\vd_mcu_kit\vd_fml\fml_lib\log -I ..\vd_mcu_kit -I ..\vd_mcu_kit\vd_lib -I ..\vd_mcu_kit\vd_lib\Library -I ..\vd_mcu_kit\vd_lib\Start -I ..\vd_mcu_kit\vd_lib\vd_hal\vdchip_stm32f103xx_gpio -I ..\vd_mcu_kit\vd_bsp -I ..\vd_mcu_kit\vd_bsp\vd_bsp_timer -I ..\vd_mcu_kit\vd_bsp\vd_bsp_adc -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module -I ..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module -I ..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi-I.\RTE\_Target_1-I"A:\Program Files (x86)\Keil_v5\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"A:\Program Files (x86)\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="527" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_uart\vd_bsp_uart.h)(0x65F30264)
-I (..\vd_mcu_kit\vd_base\base_type.h)(0x65F4141F)
-I (..\vd_mcu_kit\vd_lib\Start\stm32f10x.h)(0x4D783CB4)
-I (..\vd_mcu_kit\vd_lib\Start\core_cm3.h)(0x4D523B58)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
-I (..\vd_mcu_kit\vd_lib\Start\system_stm32f10x.h)(0x4D783CAA)
-I (..\vd_mcu_kit\vd_lib\stm32f10x_conf.h)(0x4D99A59E)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_adc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_bkp.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_can.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_cec.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_crc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dac.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dbgmcu.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_dma.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_exti.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_flash.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_fsmc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_gpio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_i2c.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_iwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_pwr.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rcc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_rtc.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_sdio.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_spi.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_tim.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_usart.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\stm32f10x_wwdg.h)(0x4D783BB4)
-I (..\vd_mcu_kit\vd_lib\Library\misc.h)(0x4D783BB4)
-I (A:\Program Files (x86)\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5EC775F6)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_gpio\vd_bsp_gpio.h)(0x65F3029B)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_type.h)(0x65F07B95)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_timer\vd_bsp_timer.h)(0x65F301DA)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_pwm\vd_bsp_pwm.h)(0x65F6FE3D)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_dwt\vd_bsp_dwt.h)(0x65ED780F)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_adc\vd_bsp_adc.h)(0x65F302C3)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_systick\vd_bsp_systick.h)(0x65F30264)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_soft_i2c\vd_bsp_soft_i2c.h)(0x65FAB556)
-I (..\vd_mcu_kit\vd_bsp\vd_bsp_soft_spi\vd_bsp_soft_spi.h)(0x65FC0154)
-I (..\vd_mcu_kit\vd_fml\fml_lib\log\log.h)(0x65EADDCD)
-I (..\vd_mcu_kit\board_config.h)(0x65F16F94)
-I (..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_led_module\vd_fml_per_led_module.h)(0x65F6F56F)
-I (..\vd_mcu_kit\vd_fml\fml_module_peripheral\vd_fml_per_beep_module\vd_fml_per_beep_module.h)(0x65F80BC5)
